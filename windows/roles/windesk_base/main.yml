@@ -1,6 +1,0 @@
-- name: Install Default Software
-  tasks:
-    - name: Install Firefox
-      win_chocolatey:
-        name: firefox
-        state: present
