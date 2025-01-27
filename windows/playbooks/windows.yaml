@@ -1,0 +1,4 @@
+- name: Default software
+  hosts: windesktop
+  roles:
+    - windesktop_base
