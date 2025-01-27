@@ -1,0 +1,7 @@
+- name: Install Default Software
+  win_chocolatey:
+    name:
+      - firefox
+      - notepadplusplus
+      - powertoys
+    state: present
