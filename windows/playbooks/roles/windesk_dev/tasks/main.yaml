@@ -1,0 +1,10 @@
+- name: Install Development Software
+  win_chocolatey:
+    name:
+      - vscode
+      - putty
+      - winscp
+      - virtualbox
+      - git
+      - vnc-viewer
+    state: present
