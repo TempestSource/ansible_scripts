@@ -2,3 +2,16 @@
   hosts: windesktop
   roles:
     - windesk_base
+- name: Eden software
+  hosts: eden.babylon.local
+  roles:
+    - windesk_dev
+    - windesk_game
+    - windesk_media
+- name: Dunscaith software
+  hosts: dunscaith.babylon.local
+  roles:
+    - windesk_dev
+    - windesk_game
+    - windesk_media
+    - windesk_create
