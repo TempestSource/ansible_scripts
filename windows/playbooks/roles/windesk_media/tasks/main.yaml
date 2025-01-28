@@ -1,0 +1,6 @@
+- name: Install Media Software
+  win_chocolatey:
+    name:
+      - vlc
+      - plex
+    state: present

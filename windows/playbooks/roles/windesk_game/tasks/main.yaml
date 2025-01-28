@@ -1,0 +1,6 @@
+- name: Install Gaming Software
+  win_chocolatey:
+    name:
+      - steam
+      - discord
+    state: present
