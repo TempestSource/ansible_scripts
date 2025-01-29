@@ -1,0 +1,8 @@
+- name: Install Packages for Debian Servers
+  hosts: debserver
+  roles:
+    - debserver
+- name: Install Packages for Linux Mint systems
+  hosts: mintclass
+  roles:
+    - mint

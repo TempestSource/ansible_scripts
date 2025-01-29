@@ -1,5 +1,5 @@
 - name: Update Linux Machines
-  hosts: linux
+  hosts: linux, mintclass
   become: yes
 
   tasks:

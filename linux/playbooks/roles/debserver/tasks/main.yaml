@@ -1,0 +1,7 @@
+- name: Install base programs for debian servers
+  apt:
+    name:
+      - vim
+      - tree
+      - ufw
+    state: present
