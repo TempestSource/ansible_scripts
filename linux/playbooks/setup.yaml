@@ -1,0 +1,10 @@
+- name: Setup Debian Servers
+  hosts: debserver
+  become: yes
+  roles:
+    - debserver
+- name: Setup Linux Mint Systems
+  hosts: mintclass.babylon.local
+  become: yes
+  roles:
+    - mint

@@ -1,0 +1,12 @@
+- name: Install base programs for Linux Mint systems
+  apt:
+    name:
+      - neovim
+      - tree
+      - ranger
+    state: present
+- name: Uninstall nano
+  apt:
+    name:
+      - nano
+    state: absent

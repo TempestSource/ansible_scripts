@@ -1,0 +1,10 @@
+- name: Update Linux Machines
+  hosts: linux, mintclass
+  become: yes
+
+  tasks:
+    - name: Update debian systems
+      when: ansible_os_family == 'Debian'
+      apt:
+        update_cache: yes
+        upgrade: yes
